@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 5px;
+    padding: 0c;
     font-size: 50 px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,6 +11,7 @@ header{
 header nav{
     display: flex;
     justify-content:flex-end;
+    padding: 15px;
 }
 
 header nav .nav-right-section{
@@ -125,5 +126,56 @@ main .main-buttons div button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: px;
+    position: absolute;
+    align-items: center;
+    background-color: #e3e3e3;
+    border-top: 1px solid #d6d6d6;
+}
+footer .top{
+    margin-left: 40px;
+    list-style: none; /*para quitar los puntos de la lista */
+    
+}
+footer .top .marge {
+    margin-top: 15px;
+}
+footer .bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    border-top: 1px solid #858585;
+    
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    margin: 12px;
+    padding-left: 0;
+    
+}
+
+footer .footer-left{
+    margin-left: 20px;
+    justify-self: start;
+}
+footer .footer-right{
+    justify-content: right;
+    margin-right: 30px;
+
+    
+}
+footer div ul li a{
+    margin: 20px;
+    color: #303030;
+}
+footer .top .marge a{
+    color: #303030;
 }
 
